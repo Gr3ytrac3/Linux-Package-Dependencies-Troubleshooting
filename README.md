@@ -1,8 +1,3 @@
-**Filename:** `fix-broken-dependencies-debian.md`
-**Description:** A practical, real-world guide to understanding and fixing broken dependencies in Debian-based Linux systems.
-
----
-
 ````markdown
 # 🛠️ Fixing Broken Dependencies in Debian-Based Linux: A Hands-On Guide
 
@@ -16,7 +11,6 @@ In Linux, a **package** is a bundle of software. Most packages rely on **other p
 
 > 💡 Example: VLC depends on video/audio libraries and GUI components. If one is missing, VLC won’t install.
 
----
 
 ## 🚨 What Causes Broken Dependencies?
 
@@ -25,7 +19,6 @@ In Linux, a **package** is a bundle of software. Most packages rely on **other p
 - Packages **conflict**
 - Updates or `.deb` installs go wrong
 
----
 
 ## 🧪 Real Troubleshooting Examples
 
@@ -200,12 +193,4 @@ apt-forktracer
 
 ---
 
-```
-
-Would you like me to upload this as an actual GitHub Gist for you? If yes, let me know:
-- Title
-- Tags (optional)
-- Public or private Gist
-
-Or I can give you a `.md` file to upload yourself.
-```
+© 2025 RedKernel
