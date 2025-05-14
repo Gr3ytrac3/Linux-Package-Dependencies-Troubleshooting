@@ -3,7 +3,6 @@
 
 A practical guide for troubleshooting unmet dependencies, broken packages, and version conflicts on Ubuntu, Debian, and other apt-based systems.
 
----
 
 ## 🔧 What Are Dependencies in Linux?
 
