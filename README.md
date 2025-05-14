@@ -7,16 +7,16 @@ A practical guide for troubleshooting unmet dependencies, broken packages, and v
 
 ## 🔧 What Are Dependencies in Linux?
 
-In Linux, a **package** is a bundle of software. Most packages rely on **other packages** to function. These are called **dependencies**.
+In Linux, a "package" is a bundle of software. Most packages rely on "other packages" to function. These are called "dependencies.
 
 > 💡 Example: VLC depends on video/audio libraries and GUI components. If one is missing, VLC won’t install.
 
 
 ## 🚨 What Causes Broken Dependencies?
 
-- Required package is **missing**
-- Version is **too old or too new**
-- Packages **conflict**
+- Required package is missing
+- Version is too old or too new
+- Packages conflict
 - Updates or `.deb` installs go wrong
 
 
