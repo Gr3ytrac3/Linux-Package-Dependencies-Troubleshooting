@@ -1,4 +1,4 @@
-````markdown
+
 # 🛠️ Fixing Broken Dependencies in Debian-Based Linux: A Hands-On Guide
 
 A practical guide for troubleshooting unmet dependencies, broken packages, and version conflicts on Ubuntu, Debian, and other apt-based systems.
