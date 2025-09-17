@@ -1,14 +1,13 @@
-````markdown
 # 🛠️ Fixing Broken Dependencies in Debian-Based Linux: A Hands-On Guide
 
 A practical guide for troubleshooting unmet dependencies, broken packages, and version conflicts on Ubuntu, Debian, and other apt-based systems.
 
 
-## 🔧 What Are Dependencies in Linux?
+## What Are Dependencies in Linux?
 
 In Linux, a "package" is a bundle of software. Most packages rely on "other packages" to function. These are called "dependencies.
 
-> 💡 Example: VLC depends on video/audio libraries and GUI components. If one is missing, VLC won’t install.
+> Example: VLC depends on video/audio libraries and GUI components. If one is missing, VLC won’t install.
 
 
 ## 🚨 What Causes Broken Dependencies?
@@ -19,7 +18,7 @@ In Linux, a "package" is a bundle of software. Most packages rely on "other pack
 - Updates or `.deb` installs go wrong
 
 
-## 🧪 Real Troubleshooting Examples
+## Real Troubleshooting Examples
 
 ### ✅ 1. Interrupted Upgrade
 
@@ -111,7 +110,7 @@ apt-cache depends <pkg>        # Show dependencies
 
 ---
 
-## 🧰 Fixing Tools
+## Fixing Tools
 
 ```bash
 sudo apt --fix-broken install
@@ -123,7 +122,7 @@ sudo apt clean && sudo apt autoremove
 
 ---
 
-## 🛡️ Advanced Fixes
+## 🛡Advanced Fixes
 
 ```bash
 sudo apt install package=version
@@ -134,7 +133,7 @@ sudo aptitude install package
 
 ---
 
-## ❗ Common Errors Cheat Sheet
+## Common Errors Cheat Sheet
 
 | Error                | Meaning               | Fix                           |
 | -------------------- | --------------------- | ----------------------------- |
@@ -164,7 +163,7 @@ sudo apt remove --simulate package
 
 ---
 
-## 🧠 Tools for Power Users
+## Tools for Power Users
 
 ### Use Aptitude for Smarter Conflict Resolution:
 
